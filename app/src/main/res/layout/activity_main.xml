@@ -8,6 +8,7 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
+    <!-- Added a pink background color and text color to stand out from the background image to show clearly -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="400dp"
@@ -27,6 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Input entered by user will display here in this edittext -->
     <EditText
         android:id="@+id/timetext"
         android:layout_width="wrap_content"
@@ -43,6 +45,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <!-- Output should display over here in this textview -->
     <TextView
         android:id="@+id/displaytimetext"
         android:layout_width="400dp"
@@ -78,6 +81,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/displaytimetext" />
 
+    <!-- Guidance textview -->
+    <!-- Added pink background color and text color to stand out from the background image -->
     <TextView
         android:id="@+id/textView4"
         android:layout_width="400dp"
@@ -116,6 +121,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
+    <!-- Guidance textview -->
+    <!-- Added a pink background color and text color to stand out from the background image  -->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="400dp"
@@ -155,6 +162,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+    <!-- Guidance textview -->
+    <!-- Added a pink background color and text color to stand out from the background image -->
     <TextView
         android:id="@+id/textView6"
         android:layout_width="400dp"
@@ -192,6 +201,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="VisualLintBounds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
