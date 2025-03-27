@@ -127,7 +127,7 @@
         android:background="#56743167"
         android:shadowColor="#eb34e8"
         android:shadowRadius="50"
-        android:text="To clear everything,click reset"
+        android:text="To clear everything,click reset."
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30dp"
@@ -144,25 +144,46 @@
         android:layout_marginStart="144dp"
         android:layout_marginTop="21dp"
         android:layout_marginEnd="144dp"
-        android:layout_marginBottom="18dp"
+        android:layout_marginBottom="24dp"
         android:backgroundTint="#cab2d6"
         android:text="Reset"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/exitbtn"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="#56743167"
+        android:shadowColor="#eb34e8"
+        android:shadowRadius="50"
+        android:text="Click exit to leave the app."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/exitbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resetbtn" />
+
     <Button
         android:id="@+id/exitbtn"
         android:layout_width="160dp"
-        android:layout_height="50dp"
+        android:layout_height="48dp"
         android:layout_marginStart="144dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="6dp"
         android:layout_marginEnd="144dp"
-        android:layout_marginBottom="182dp"
+        android:layout_marginBottom="101dp"
         android:backgroundTint="#cab2d6"
         android:text="EXIT"
         android:textColor="@color/black"
@@ -171,6 +192,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resetbtn" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
