@@ -7,7 +7,12 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".MainActivity2">
+    <!-- Added a background image to the app (https://za.pinterest.com/pin/320107486034589565/) -->
 
+    <!-- Added a pink background color and text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold and italic to the text to make it stand out more -->
+    <!-- https://www.color-hex.com/color-palette/1056520 ( the site i used to get the color code for the text background color) -->
     <TextView
         android:id="@+id/textView5"
         android:layout_width="400dp"
@@ -29,6 +34,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Added a pink background color and text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold and italic to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView13"
         android:layout_width="300dp"
@@ -50,6 +58,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
+    <!-- Added a pink background color and text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold and italic to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView14"
         android:layout_width="150dp"
@@ -67,6 +78,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
+    <!-- Added a pink text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView15"
         android:layout_width="200dp"
@@ -84,6 +98,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
+    <!-- Added a pink background color and text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold and italic to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="150dp"
@@ -101,6 +118,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
+    <!-- Added a pink text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView10"
         android:layout_width="150dp"
@@ -118,6 +138,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
+    <!-- Added a pink background color and text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold and italic to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView16"
         android:layout_width="150dp"
@@ -135,6 +158,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
+    <!-- Added a pink text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView17"
         android:layout_width="150dp"
@@ -152,6 +178,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
+    <!-- Added a pink background color and text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold and italic to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView7"
         android:layout_width="150dp"
@@ -169,6 +198,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
+    <!-- Added a pink text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView11"
         android:layout_width="150dp"
@@ -186,6 +218,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
+    <!-- Added a pink background color and text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold and italic to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView8"
         android:layout_width="200dp"
@@ -205,6 +240,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
+    <!-- Added a pink text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView12"
         android:layout_width="200dp"
@@ -223,6 +261,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
+    <!-- Added a pink background color and text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold and italic to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView9"
         android:layout_width="287dp"
@@ -242,6 +283,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
+    <!-- Added a pink text color to white to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold to the text to make it stand out more -->
     <TextView
         android:id="@+id/textView18"
         android:layout_width="287dp"
@@ -261,6 +305,9 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         tools:ignore="VisualLintBounds" />
 
+    <!-- This button takes the user back to the main activity -->
+    <!-- Added a black text color to help the button stand out from the design -->
+    <!-- https://www.color-hex.com/color-palette/1056520 ( the site i used to get the color code for the button background color) -->
     <Button
         android:id="@+id/backbtn"
         android:layout_width="wrap_content"

@@ -7,8 +7,12 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".MainActivity">
+    <!-- Added a background image to the app (https://za.pinterest.com/pin/320107486034589565/) -->
 
     <!-- Added a pink background color and text color to stand out from the background image to show clearly -->
+    <!-- Added a shadow to the text to make it stand out more since my background is a bright image -->
+    <!-- Added bold and italic to the text to make it stand out more -->
+    <!-- https://www.color-hex.com/color-palette/1056520 ( the site i used to get the color code for the text background color) -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="400dp"
@@ -28,7 +32,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Input entered by user will display here in this edittext -->
+    <!-- Input of time entered by user will display here in this edittext -->
+    <!-- Added a hint to help the user know what to enter -->
     <EditText
         android:id="@+id/timetext"
         android:layout_width="wrap_content"
@@ -63,6 +68,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timetext" />
 
+    <!-- This button generates the meal based on the input -->
+    <!-- Added a black text color to help the button stand out from the design -->
+    <!-- https://www.color-hex.com/color-palette/1056520 ( the site i used to get the color code for the button background color) -->
     <Button
         android:id="@+id/GenMealbtn"
         android:layout_width="160dp"
@@ -83,6 +91,7 @@
 
     <!-- Guidance textview -->
     <!-- Added pink background color and text color to stand out from the background image -->
+    <!-- https://www.color-hex.com/color-palette/1056520 ( the site i used to get the color code for the text background color) -->
     <TextView
         android:id="@+id/textView4"
         android:layout_width="400dp"
@@ -104,6 +113,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/GenMealbtn" />
 
+    <!-- This button takes the user to the menu activity_main2 -->
+    <!-- Added a black text color to help the button stand out from the design -->
     <Button
         android:id="@+id/menubtn"
         android:layout_width="160dp"
@@ -123,6 +134,7 @@
 
     <!-- Guidance textview -->
     <!-- Added a pink background color and text color to stand out from the background image  -->
+    <!-- https://www.color-hex.com/color-palette/1056520 ( the site i used to get the color code for the text background color) -->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="400dp"
@@ -144,6 +156,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menubtn" />
 
+    <!-- This button resets the app -->
+    <!-- Added a black text color to help the button stand out from the design -->
     <Button
         android:id="@+id/resetbtn"
         android:layout_width="160dp"
@@ -164,6 +178,7 @@
 
     <!-- Guidance textview -->
     <!-- Added a pink background color and text color to stand out from the background image -->
+    <!-- https://www.color-hex.com/color-palette/1056520 ( the site i used to get the color code for the text background color) -->
     <TextView
         android:id="@+id/textView6"
         android:layout_width="400dp"
@@ -185,6 +200,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resetbtn" />
 
+    <!-- This button exits the app -->
+    <!-- Added a black text color to help the button stand out from the design -->
     <Button
         android:id="@+id/exitbtn"
         android:layout_width="160dp"
